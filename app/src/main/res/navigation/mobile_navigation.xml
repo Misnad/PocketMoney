@@ -20,13 +20,13 @@
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.misnadqasim.pocketmoney.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_year"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="com.misnadqasim.pocketmoney.ui.notifications.NotificationsFragment"
+        android:name="com.misnadqasim.pocketmoney.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@xml/root_preferences" />
 
 </navigation>
