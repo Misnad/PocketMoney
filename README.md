@@ -1,0 +1,2 @@
+# PocketMoney
+Know your spendings
