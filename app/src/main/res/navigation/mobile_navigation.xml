@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_month">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.misnadqasim.pocketmoney.ui.home.HomeFragment"
+        android:id="@+id/navigation_month"
+        android:name="com.misnadqasim.pocketmoney.ui.month.MonthFragment"
         android:label="@string/title_month"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_month" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
