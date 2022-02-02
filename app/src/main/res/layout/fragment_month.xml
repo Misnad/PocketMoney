@@ -21,7 +21,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/month_changer"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_baseline_menu_24"
@@ -36,12 +36,13 @@
                 android:text="March"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton"
-                app:layout_constraintStart_toEndOf="@+id/imageButton2"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintEnd_toStartOf="@+id/settings"
+                app:layout_constraintStart_toEndOf="@+id/month_changer"
+                app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="@font/roboto_mono_regular"/>
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/settings"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/ic_baseline_settings_24"
@@ -73,7 +74,8 @@
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBaselineOf="@+id/balance"
-                app:layout_constraintStart_toStartOf="@+id/constraintLayout" />
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+                android:fontFamily="@font/roboto_mono_medium"/>
 
             <TextView
                 android:id="@+id/balance"
@@ -85,9 +87,12 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="210.50"
+                android:textStyle="bold"
+                android:textColor="#000099"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView2"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="@font/roboto_mono_bold"/>
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -99,22 +104,26 @@
                 tools:layout_editor_absoluteX="20dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="In"
                     android:textSize="15dp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/roboto_mono_light"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Out"
                     android:textSize="15dp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/roboto_mono_light"/>
 
             </LinearLayout>
 
@@ -125,7 +134,8 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/total_in"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     android:layout_weight="1"
@@ -133,10 +143,14 @@
                     android:backgroundTint="@color/white"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="250.65" />
+                    android:text="250.65"
+                    android:textStyle="bold"
+                    android:textColor="#009900"
+                    android:fontFamily="@font/roboto_mono_bold"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/total_out"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
@@ -144,7 +158,10 @@
                     android:backgroundTint="@color/white"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="10.50" />
+                    android:text="103121.50"
+                    android:textStyle="bold"
+                    android:textColor="#990000"
+                    android:fontFamily="@font/roboto_mono_bold"/>
 
             </LinearLayout>
 
@@ -164,7 +181,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Transactions"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_mono_light"/>
         </LinearLayout>
 
         <ScrollView
@@ -203,20 +222,23 @@
                 android:id="@+id/earn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="earn"
+                android:text="in"
                 android:layout_margin="15dp"
                 android:background="@drawable/button_bg"
                 android:backgroundTint="#00ff00"
-                android:backgroundTintMode="add"/>
+                android:backgroundTintMode="add"
+                android:fontFamily="@font/roboto_mono_bold"/>
 
             <Button
+                android:id="@+id/spend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="spend"
+                android:text="out"
                 android:layout_margin="15dp"
                 android:background="@drawable/button_bg"
                 android:backgroundTint="#ff0000"
-                android:backgroundTintMode="add"/>
+                android:backgroundTintMode="add"
+                android:fontFamily="@font/roboto_mono_bold"/>
 
         </LinearLayout>
 

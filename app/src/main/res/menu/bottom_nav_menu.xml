@@ -7,6 +7,11 @@
         android:title="@string/title_month" />
 
     <item
+        android:id="@+id/navigation_loan"
+        android:icon="@drawable/ic_baseline_people_outline_24"
+        android:title="@string/title_loan" />
+
+    <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_baseline_bar_chart_24"
         android:title="@string/title_analytics" />
@@ -16,9 +21,5 @@
         android:icon="@drawable/ic_baseline_today_24"
         android:title="@string/title_year" />
 
-    <item
-        android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_baseline_settings_24"
-        android:title="@string/title_settings" />
 
 </menu>

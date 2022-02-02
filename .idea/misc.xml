@@ -3,9 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/button_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_baseline_auto_graph_24.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/pink_out_line.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/rounded_rectangle.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/tab_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/toggle_widget_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/drawable/transaction_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/activity_add_transaction.xml" value="0.3625" />
         <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/activity_main.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_blank.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_home.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_loan.xml" value="0.3625" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_month.xml" value="0.3625" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/fragment_notifications.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/layout/settings_activity.xml" value="0.3625" />
         <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/misna/AndroidStudioProjects/My_Projects/PocketMoney/app/src/main/res/xml/root_preferences.xml" value="0.33177083333333335" />
       </map>
     </option>
   </component>

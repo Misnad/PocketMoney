@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_month" />
 
     <fragment
+        android:id="@+id/navigation_loan"
+        android:name="com.misnadqasim.pocketmoney.ui.loan.LoanFragment"
+        android:label="@string/title_loan"
+        tools:layout="@layout/fragment_loan" />
+
+    <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.misnadqasim.pocketmoney.ui.dashboard.DashboardFragment"
         android:label="@string/title_analytics"
@@ -23,10 +29,5 @@
         android:label="@string/title_year"
         tools:layout="@layout/fragment_notifications" />
 
-    <fragment
-        android:id="@+id/navigation_settings"
-        android:name="com.misnadqasim.pocketmoney.ui.settings.SettingsFragment"
-        android:label="@string/title_settings"
-        tools:layout="@xml/root_preferences" />
 
 </navigation>
